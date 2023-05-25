@@ -15,9 +15,3 @@ def convert_phone_number(phone_number):
         phone_number = '010' + phone_number
     
     return phone_number
-
-# Example usage:
-phone_numbers = ['+821099998888', '+8201099998888', '1099998888']
-for number in phone_numbers:
-    converted_number = convert_phone_number(number)
-    print(f'{number} -> {converted_number}')
